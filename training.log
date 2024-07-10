@@ -1,0 +1,23 @@
+2024-07-08 18:15:39,758 - root - INFO - Epoch 1/20, Average Error: 0.498302, Validation Accuracy: 0.9437, lr = 0.100000
+2024-07-08 19:02:50,649 - root - INFO - Epoch 2/20, Average Error: 0.191875, Validation Accuracy: 0.9662, lr = 0.100000
+2024-07-08 19:50:05,300 - root - INFO - Epoch 3/20, Average Error: 0.138877, Validation Accuracy: 0.9728, lr = 0.100000
+2024-07-08 20:37:16,266 - root - INFO - Epoch 4/20, Average Error: 0.113061, Validation Accuracy: 0.9785, lr = 0.100000
+2024-07-08 21:24:28,000 - root - INFO - Epoch 5/20, Average Error: 0.096377, Validation Accuracy: 0.9797, lr = 0.100000
+2024-07-08 22:12:26,900 - root - INFO - Epoch 6/20, Average Error: 0.086475, Validation Accuracy: 0.9835, lr = 0.100000
+2024-07-08 22:59:36,330 - root - INFO - Epoch 7/20, Average Error: 0.076944, Validation Accuracy: 0.9842, lr = 0.100000
+2024-07-08 23:46:41,205 - root - INFO - Epoch 8/20, Average Error: 0.070667, Validation Accuracy: 0.9860, lr = 0.100000
+2024-07-09 00:33:35,382 - root - INFO - Epoch 9/20, Average Error: 0.065583, Validation Accuracy: 0.9852, lr = 0.100000
+2024-07-09 01:20:29,422 - root - INFO - Epoch 10/20, Average Error: 0.060977, Validation Accuracy: 0.9852, lr = 0.100000
+2024-07-09 02:07:24,780 - root - INFO - Epoch 11/20, Average Error: 0.056608, Validation Accuracy: 0.9870, lr = 0.100000
+2024-07-09 02:54:18,857 - root - INFO - Epoch 12/20, Average Error: 0.052942, Validation Accuracy: 0.9873, lr = 0.100000
+2024-07-09 03:41:13,419 - root - INFO - Epoch 13/20, Average Error: 0.049505, Validation Accuracy: 0.9872, lr = 0.100000
+2024-07-09 04:28:07,392 - root - INFO - Epoch 14/20, Average Error: 0.045923, Validation Accuracy: 0.9868, lr = 0.100000
+2024-07-09 05:15:01,276 - root - INFO - Epoch 15/20, Average Error: 0.044104, Validation Accuracy: 0.9892, lr = 0.100000
+2024-07-09 06:01:56,152 - root - INFO - Epoch 16/20, Average Error: 0.042454, Validation Accuracy: 0.9892, lr = 0.100000
+2024-07-09 06:48:50,414 - root - INFO - Epoch 17/20, Average Error: 0.039225, Validation Accuracy: 0.9883, lr = 0.100000
+2024-07-09 07:35:44,776 - root - INFO - Epoch 18/20, Average Error: 0.037801, Validation Accuracy: 0.9883, lr = 0.100000
+2024-07-09 07:36:02,151 - root - INFO - Validation accuracy not improving. Reducing learning rate from 0.100000 to 0.050000
+2024-07-09 08:22:39,364 - root - INFO - Epoch 19/20, Average Error: 0.032614, Validation Accuracy: 0.9887, lr = 0.050000
+2024-07-09 09:09:34,188 - root - INFO - Epoch 20/20, Average Error: 0.030869, Validation Accuracy: 0.9892, lr = 0.050000
+2024-07-09 09:13:30,354 - root - INFO - Accuracy on test set: 98.96%
+
