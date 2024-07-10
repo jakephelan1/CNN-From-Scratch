@@ -13,9 +13,9 @@ This project involves building a Convolutional Neural Network (CNN) from scratch
 - `training.log`: Log file for recording training progress and validation accuracy.
 - `README.md`: Project documentation.
 
-### Setup and Installation
+## Setup and Installation
 
-## Prerequisites
+### Prerequisites
 
 Ensure you have Python 3.8 or later installed on your system. You can check your Python version by running:
 
