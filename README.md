@@ -25,23 +25,30 @@ python --version
 
 ### Installation 
 1. **Clone the repository:** 
-bash Copy code `git clone https://github.com/jakephelan1/CNN-From-Scratch.git cd CNN-From-Scratch` 
+```bash
+git clone https://github.com/jakephelan1/CNN-From-Scratch.git cd CNN-From-Scratch` 
+```
 2. **Create a virtual environment:** 
-bash Copy code `` python -m venv venv source venv/bin/activate # On Windows, use `venv\Scripts\activate` `` 
+```bash
+python -m venv venv source venv/bin/activate # On Windows, use venv\Scripts\activate
+```
 3. **Install the required packages:** 
-bash Copy code `pip install -r requirements.txt` 
+```bash
+pip install -r requirements.txt
+``` 
 
 ### Data Preparation 
 As of now, the program is set to train the model on the keras mnist dataset. If youd like to use custom data, ensure your dataset is placed in a `data/` directory and update the paths in the `preprocess_data` function in `convolutional_neural_net.py` accordingly. 
 
-### Training the Model
+### Training/Testing the Model
  Run the following command to train and test the CNN model on the data: 
-bash Copy code `python convolutional_neural_network.py` 
+```bash
+python convolutional_neural_network.py
+```
 
-This will start the training process and save the trained model as `cnn_model.pkl`. 
+This will start the training process, save the trained model as `cnn_model.pkl`, and evaluate its performance on a test set.
 
-### Testing the Model
- After training, you can evaluate the model's performance on the test set by running the evaluation function within `convolutional_neural_network.py`. The results will be logged in the `training.log` file.
+
 
 
 
