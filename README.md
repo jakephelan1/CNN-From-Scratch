@@ -21,6 +21,7 @@ Ensure you have Python 3.8 or later installed on your system. You can check your
 
 ```bash
 python --version
+```
 
 ### Installation 
 1. **Clone the repository:** 
