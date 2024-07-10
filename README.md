@@ -7,7 +7,7 @@ This project involves building a Convolutional Neural Network (CNN) from scratch
 ## Project Structure
 
 - `activations.py`: Contains activation functions and activation layer classes.
-- `convolutional_neural_network.py`: Main script for defining, training, and evaluating the CNN model.
+- `convolutional_neural_net.py`: Main script for defining, training, and evaluating the CNN model.
 - `layers.py`: Contains the different layer classes used in the CNN, including Convolutional, Dense, Flatten, Dropout, and MaxPooling layers.
 - `losses.py`: Contains loss functions and their derivatives.
 - `training.log`: Log file for recording training progress and validation accuracy.
