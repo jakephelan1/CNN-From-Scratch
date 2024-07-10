@@ -43,7 +43,7 @@ As of now, the program is set to train the model on the keras mnist dataset. If 
 ### Training/Testing the Model
  Run the following command to train and test the CNN model on the data: 
 ```bash
-python convolutional_neural_network.py
+python convolutional_neural_net.py
 ```
 
 This will start the training process, save the trained model as `cnn_model.pkl`, and evaluate its performance on a test set.
