@@ -21,8 +21,7 @@ logging.basicConfig(
 def preprocess_data(x, y):
     x = x.reshape(len(x), 1, 28, 28)
     x = x.astype('float32') / 255
-    y = to_categorical(y, 10)  
-    y = y.reshape(len(y), 10)
+    y = to_categorical(y, 10)
     return x, y
 
 def create_network():
@@ -38,35 +37,6 @@ def create_network():
         ReLU(),
         Dropout(0.3),
         Dense(128, 10),
-        Softmax()
-    ]
-
-def create_facial_recognition_network(num_classes):
-    return [
-        Convolutional((3, 224, 224), 3, 64),
-        ReLU(),
-        MaxPooling(2, 2),
-        Convolutional((64, 111, 111), 3, 128),
-        ReLU(),
-        MaxPooling(2, 2),
-        Convolutional((128, 55, 55), 3, 256),
-        ReLU(),
-        Convolutional((256, 55, 55), 3, 256),
-        ReLU(),
-        MaxPooling(2, 2),
-        Convolutional((256, 27, 27), 3, 512),
-        ReLU(),
-        Convolutional((512, 27, 27), 3, 512),
-        ReLU(),
-        MaxPooling(2, 2),
-        Flatten(),
-        Dense(512 * 13 * 13, 4096),
-        ReLU(),
-        Dropout(0.5),
-        Dense(4096, 4096),
-        ReLU(),
-        Dropout(0.5),
-        Dense(4096, num_classes),
         Softmax()
     ]
 
