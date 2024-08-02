@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project involves building a Convolutional Neural Network (CNN) from scratch using Python and popular deep learning libraries. The aim is to demonstrate a comprehensive understanding of neural networks by implementing and training a CNN model to classify images. The project involves several complexities, including data preprocessing, model architecture design, training the model, and evaluating its performance.
+This project involves building a Convolutional Neural Network (CNN) from scratch using Python. The aim is to demonstrate a comprehensive understanding of neural networks by implementing and training a CNN model to classify images. The project involves several complexities, including data preprocessing, model architecture design, training the model, and evaluating its performance.
 
 ## Project Structure
 
