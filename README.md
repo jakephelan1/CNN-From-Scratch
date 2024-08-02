@@ -1,5 +1,7 @@
 # CNN-From-Scratch
 
+Created by: [Jake Phelan](https://github.com/jakephelan1)
+
 ## Project Overview
 
 This project involves building a Convolutional Neural Network (CNN) from scratch using Python. The aim is to demonstrate a comprehensive understanding of neural networks by implementing and training a CNN model to classify images. The project involves several complexities, including data preprocessing, model architecture design, training the model, and evaluating its performance.
